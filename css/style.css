@@ -1,0 +1,27 @@
+body{
+    font-family: 'Lato', sans-serif;
+    color:#291f1a;
+    font-weight: 300;
+    margin:0;
+}
+#main-nav{
+    display:inline-block;
+    position:fixed;
+    background: #fff;
+    color:#1ac056;
+    font-weight: 300;
+    width:100%;
+}
+#main-nav li{
+    float:right;
+    padding: 0 20px;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+#main-nav a:hover{
+    color:#291f1a;
+}
