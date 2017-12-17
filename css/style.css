@@ -143,7 +143,14 @@ span{
 
 
 /*SECTION CONTACT*/
-
+.contact-form{
+    width:50%;
+    float:left;
+}
+.contact-data{
+    width:50%;
+    float:left;
+}
 .contact-form input{
     background-color: #213b50;
     color:#fff;
@@ -151,3 +158,39 @@ span{
 .contact-form textarea{
     background-color: #213b50;
 }
+#contact{
+    overflow:hidden;
+}
+#contact .contact-data h2{
+    text-align: left;
+    font-size:38px;
+}
+#contact .contact-data address{
+    font-style:normal;
+    line-height:25px;
+    margin:72px;
+}
+#contact .contact-data address a{
+    color:#1ac056;
+}
+SKONCZONE NA O
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
