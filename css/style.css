@@ -1,3 +1,7 @@
+*{
+    overflow:visible;
+    box-sizing:border-box;
+}
 body{
     font-family: 'Lato', sans-serif;
     color:#291f1a;
@@ -6,20 +10,22 @@ body{
 }
 /*NAVIGACJA*/
 #main-nav{
+    position:relative;
+    top:0;
     display:inline-block;
     position:fixed;
-    background-color: #fff;
+    background-color: transparent;
     font-weight: 300;
     width:100%;
 }
-#main-nav li{
+#main-nav li {
     float:right;
     padding: 0 20px;
 }
 ul{
-    list-style-type: none;
+    list-style: none;
 }
-a{
+#main-nav > ul > li > a{
     text-decoration: none;
     color:#1ac056;
 }
@@ -32,10 +38,28 @@ a{
     background-image: url(../img/header-background.jpg);
     background-size: cover;
     background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+}
+.main-header-content{
+    text-align: center;
+    padding-top: 15%;
 }
 h1{
     font-family: 'Roboto', sans-serif;
     margin:0;
+    color:white;
+    font-size:150px;
+    font-weight: 300;
+}
+span{
+    color:limegreen;
+}
+.main-header-content h2{
+    color:white;
+    font-size:40px;
+    margin:0;
+    font-weight: 300;
 }
 .main-header-content{
     padding:30vh%;
@@ -44,3 +68,86 @@ h1{
 
 
 /*HEADER END*/
+/*SECTION ABOUT*/
+#about{
+    height:500px;
+    width:100%;
+    background-color: #f9fcfe;
+    padding-top:50px;
+}
+#about h2{
+    width:100%;
+    text-align: center;
+    font-size:30px;
+    font-weight: 300;
+}
+#about figure img{
+    max-width:350px;;
+    height:300px;
+    margin-left:100px;
+    border:14px #fff solid;
+    border-radius:30px;
+    
+}
+#about p{
+    display:inline;
+    width:50%;
+    float:right;
+    padding-right:100px;
+    line-height: 30px;
+}
+
+
+/*SECTION ABOUT END*/
+/*SECTION SKILLS*/
+#skills{
+    padding:25px;
+}
+#skills h2{
+    text-align: center;
+    font-weight: 300;
+}
+#skills p{
+    padding-left:0;
+    text-align: center;
+}
+.skills-icons figure{
+    display:inline-block;
+}
+.skills-icons {
+    margin-left:350px;
+}
+
+/*SECTION SKILLS END*/
+/*SECTION PORTFOLIO*/
+#moje-portfolio h2{
+    text-align: center;
+}
+#moje-portfolio #img-portfolio img{
+    width:350px;
+    height: 350px;
+    display:inline;
+    float:left;
+}
+#img-portfolio{
+    width:100%;
+    margin-left: 75px;
+}
+
+
+
+
+
+
+/*SECTION PORTFOLIO END*/
+
+
+/*SECTION CONTACT*/
+
+.contact-form input{
+    background-color: #213b50;
+    color:#fff;
+}
+.contact-form textarea{
+    background-color: #213b50;
+}
